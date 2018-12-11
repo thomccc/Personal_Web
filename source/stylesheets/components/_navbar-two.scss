@@ -1,0 +1,50 @@
+/* Main navbar */
+.navbar-wagas {
+  background: #f88379;
+  transition: all 0.3s ease;
+  height: 70px;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: 0.5s background-color ease;
+
+}
+
+/* Logo */
+.navbar-wagas-brand img {
+  height: 30px;
+}
+
+
+
+/* Right section */
+.navbar-wagas-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Basic navbar item */
+.navbar-wagas-item {
+  cursor: pointer;
+  padding: 0 20px;
+}
+
+/* Navbar link */
+.navbar-wagas-link {
+  color: white;
+  font-size: 14px;
+}
+.navbar-wagas-link:hover {
+  color: #da552f;
+  text-decoration: none;
+}
+
+/* Dropdown menu */
+.navbar-wagas-dropdown-menu {
+  margin-top: 15px;
+  box-shadow: 1px 1px 4px #E6E6E6;
+  border-color: #E6E6E6;
+}
+
