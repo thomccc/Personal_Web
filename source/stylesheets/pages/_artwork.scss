@@ -10,10 +10,41 @@
   border-radius: 3px;
 }
 
+
 .video-container {
-  width: 100vw;
-  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
 }
+
+#website-class {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  align-items: center;
+  padding: 50px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: -80px;
+
+  }
+
+#website-text {
+  text-align: left;
+  padding: 50px;
+}
+
+#website-text h2 {
+  font-family: Rubik;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+#website-text p {
+  font-weight: 400;
+}
+
 .artwork-container{
   background-color: #f88379;
   margin-top: 0px;
