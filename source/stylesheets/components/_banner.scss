@@ -1,3 +1,4 @@
+
 .home-banner {
   display:flex;
   background-size: cover;
@@ -14,44 +15,51 @@
 
 .banner-one {
   display:flex;
+  background-image: url(https://res.cloudinary.com/dsvnlo5ja/image/upload/v1544859629/yin-yin-low-1222961-unsplash.jpg);
   background-size: cover;
   background-position: center;
   text-align: center;
   align-items: center;
   height: 100vh;
   width: 100vw;
-  background-color: #320A28;
 }
 
-.card-left {
-  padding: 50px;
-}
 
-.card-left img {
-  height: 50vh;
+
+.card-two {
   display: flex;
-  align-items: center;
+  justify-content:center;
 }
-
-.card-right {
+.card-one {
   text-align: center;
   display: flex;
+  justify-content: center;
+  flex-direction: row;
   align-items:center;
-  flex-direction: column;
   padding: 50px;
+  width:80%;
+  color: white;
+  border-radius: 3px;
 }
 
-.card-right h2 {
+.card-one h2 {
+  font-family: Rubik;
   font-weight: 600;
-  color: white;
   align-items: center;
+  padding: 10px;
 }
 
-.card-right p {
+.card-one p {
   font-weight: 400;
-  color: white;
+  font-size: 15px;
   align-items: center;
+  padding: 10px;
 }
+
+#credit-one p {
+  font-size:12px;
+}
+
 
 .stuff {
   justify-content: center;
@@ -87,19 +95,3 @@
   }
 }
 
-// === Variables =====
-$perspective:     60rem;
-$font-size:       4.25rem;
-$split-position:  49%;
-$split-thickness: 4px;
-$split-color:     #FF2C75;
-
-// === Settings =====
-%font-settings {
-  font-family: "Gilroy ExtraBold", system-ui, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  -webkit-font-smoothing: antialiased;
-  -webkit-font-kerning: normal;
-  -webkit-text-size-adjust: 100%;
-}
