@@ -8,25 +8,76 @@
 
 
 .container-two {
-  height:100vh;
-  width: 100vw;
+    display: grid;
+    grid-template-columns: 8fr 5fr;
+    grid-template-rows: 2.5fr 1.5fr;
+    height: 100vh;
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+
+
+
+ }
+
+
+.group-one {
+  display: flex;
+  grid-row: 1 / span 1;
+  grid-column: 1 / span 1;
+  background-color: #F5E2C8;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-weight: 600;
+  text-decoration: none;
+
 }
 
 
-#card-id-one {
-  width:100%;
+
+.group-two {
+  display: flex;
+  grid-row: 1 / span 1;
+  grid-column: 2 / span 2;
+  background-color:#f88379;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-decoration: none;
+
+}
+
+.group-three {
+  display: flex;
+  grid-row: 2 / span 2;
+  grid-column: 1 / span 1;
   background-color: #f88379;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-decoration: none;
 }
 
-#card-id-two {
-  background-color: #FFD9CE;
+.group-four {
+  display: flex;
+  grid-row: 2 / span 2;
+  grid-column: 2 / span 2;
+  background-color: #F5E2C8;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 15px;
+  text-decoration: none;
 }
 
-#card-id-three {
-  background-color: #171738;
-}
-
-#card-id-four {
-  background-color: #EFE7DA;
-}
 
