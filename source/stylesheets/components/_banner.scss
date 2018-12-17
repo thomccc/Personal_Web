@@ -13,16 +13,7 @@
   background-color: #f88379;
 }
 
-.banner-one {
-  display:flex;
-  background-image: url(https://res.cloudinary.com/dsvnlo5ja/image/upload/v1544859629/yin-yin-low-1222961-unsplash.jpg), linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
-  background-size: cover;
-  background-position: center;
-  text-align: center;
-  align-items: center;
-  height: 100vh;
-  width: 100vw;
-}
+
 
 
 
@@ -30,35 +21,7 @@
   display: flex;
   justify-content:center;
 }
-.card-one {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  align-items:center;
-  padding: 50px;
-  width:80%;
-  color: white;
-  border-radius: 3px;
-}
 
-.card-one h2 {
-  font-family: Rubik;
-  font-weight: 600;
-  align-items: center;
-  padding: 10px;
-}
-
-.card-one p {
-  font-weight: 400;
-  font-size: 15px;
-  align-items: center;
-  padding: 10px;
-}
-
-#credit-one p {
-  font-size:12px;
-}
 
 
 .stuff {
@@ -71,6 +34,7 @@
   font-family: Rubik;
   font-weight: 700;
   font-size: 100px;
+  color: white;
 }
 
 @media (max-width: 700px) {
@@ -78,6 +42,7 @@
    font-size: 30px !important;
    font-family: Rubik;
    font-weight: 700;
+
   }
 }
 

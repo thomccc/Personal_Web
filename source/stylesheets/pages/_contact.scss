@@ -22,6 +22,24 @@ textarea {
   max-width: 768px;
   margin: 60px auto;
   position: relative;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  #c-container {
+  margin: 30px 30px;
+
+  }
+
+  #c-container h1 {
+    font-size: 40px;
+  }
+}
+
+#c-container h1 {
+  font-weight: 700;
+  font-family: Rubik;
+  padding-top: 30px;
 }
 
 form {

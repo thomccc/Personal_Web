@@ -1,4 +1,15 @@
+#warn {
+  padding: 10px;
+  text-align: center;
+  font-size: 10px;
+  color: #302F2F;
+  opacity: 0.7;
 
+}
+
+#warn:hover {
+  opacity: 1.0
+}
 .photography-text-container {
   width: 60vw;
   display: flex;
@@ -13,6 +24,18 @@
   font-weight: 700;
   padding: 15px;
   font-size: 40px;
+}
+
+@media (max-width: 700px) {
+  .photography-text-container h1 {
+  font-size: 30px;
+  padding: 10px
+
+  }
+
+  .photography-text-container {
+    width: 80vw;
+  }
 }
 
 .text-p-container {
@@ -37,6 +60,12 @@
   grid-gap: 5px;
 }
 
+@media (max-width: 700px) {
+  .item {
+  background-image: cover;
+
+  }
+}
 .item:nth-child(1) {
   grid-row: 1 / 4;
 }
