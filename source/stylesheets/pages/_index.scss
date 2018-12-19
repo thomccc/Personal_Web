@@ -140,10 +140,17 @@
   justify-content: center;
   height: 100%;
   font-weight: 600;
-  color: white
+  color: white;
 
 }
 
+.group-one , .group-two , .group-three , .group-four {
+  transition: all .2s ease-in-out;
+}
+
+.group-one:hover , .group-two:hover , .group-three:hover , .group-four:hover {
+  transform: scale(1.1);
+}
 
 
 .group-two {
